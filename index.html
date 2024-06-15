@@ -123,7 +123,8 @@
 
     const sendMsg = document.getElementById('send_msg');
     const messages = document.getElementById('messages');
-    const socket = io("https://chat-app-backend-1six.onrender.com");
+    const socket = io("https://chat-app-backend-fkas.onrender.com/");
+   
 
     socket.on('connect', () => {
         const userId = socket.id;
